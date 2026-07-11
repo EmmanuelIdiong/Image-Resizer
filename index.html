@@ -1,19 +1,60 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
     <head>
-     <script crossorigin="anonymous"></script>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title> Image Resizer dioxus | ⛺</title>
-    <link rel="preload" as="script" href="/Image-Resizer/assets/Diowork-dxhb5da4b5b58c96.js" crossorigin><link rel="preload" as="script" href="/Image-Resizer/assets/Diowork-dxhdb426d9a98265e7d.js" crossorigin><link rel="preload" as="script" href="/Image-Resizer/assets/Diowork-dxhca4b3e24d0bd8d7.js" crossorigin><link rel="preload" as="script" href="/Image-Resizer/assets/Diowork-dxhca4b3e24d0bd8d7.js" crossorigin><link rel="preload" as="script" href="/Image-Resizer/assets/Diowork-dxhca4b3e24d0bd8d7.js" crossorigin><link rel="preload" as="script" href="/./assets/ImageResizer-dxh1e56f17079988df4.js" crossorigin></head>
+
+        <!-- 
+            🔥 CORS HEADERS: Unblocks Adsterra (fixed by you, great job!)
+        -->
+        <meta http-equiv="Cross-Origin-Embedder-Policy" content="credentialless">
+        <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin-allow-popups">
+
+        <!-- 
+            👇 FIXED BASE PATH: Your app is hosted at /Image-Resizer/
+            Setting this correctly means you don't need to prefix every asset.
+        -->
+        <base href="/Image-Resizer/" />
+
+        <!-- 
+            🚀 PRECONNECT: Resolves Adsterra's domain early (speeds up ad loading)
+        -->
+        <link rel="preconnect" href="https://www.highperformanceformat.com" />
+        <link rel="dns-prefetch" href="https://www.highperformanceformat.com" />
+
+        <title>Image Resizerdioxus | ⛺</title>
+
+        <!-- 
+            ✅ YOUR CSS — This was missing! Without this, the ad banner is NOT fixed.
+            Now it will apply your .ad-banner styles correctly.
+        -->
+        <link rel="stylesheet" href="/Image-Resizer/assets/main.css" />
+
+        <!-- 
+            ✅ PRELOADS — Only the UNIQUE files, no duplicates.
+            Your build has 3 unique JS files; load each exactly once.
+        -->
+        <link rel="preload" as="script" href="/Image-Resizer/assets/Diowork-dxhb5da4b5b58c96.js" crossorigin />
+        <link rel="preload" as="script" href="/Image-Resizer/assets/Diowork-dxhdb426d9a98265e7d.js" crossorigin />
+        <link rel="preload" as="script" href="/Image-Resizer/assets/Diowork-dxhca4b3e24d0bd8d7.js" crossorigin />
+
+        <!-- 
+            ✅ PRELOAD WASM (if you have one) — speeds up WebAssembly load.
+            Check your dist/assets/ folder for a .wasm file and uncomment:
+            <link rel="preload" as="fetch" href="/Image-Resizer/assets/app_name.wasm" crossorigin />
+        -->
+    <link rel="preload" as="script" href="/./assets/ImageResizer-dxh1e56f17079988df4.js" crossorigin></head>
     <body>
-        <div id="main"> 
-        </div>
-    <script type="module" async src="/Image-Resizer/assets/Diowork-dxhb5da4b5b58c96.js"></script>
-            <script type="module" async src="/Image-Resizer/assets/Diowork-dxhdb426d9a98265e7d.js"></script>
-            <script type="module" async src="/Image-Resizer/assets/Diowork-dxhca4b3e24d0bd8d7.js"></script>
-            <script type="module" async src="/Image-Resizer/assets/Diowork-dxhca4b3e24d0bd8d7.js"></script>
-            <script type="module" async src="/Image-Resizer/assets/Diowork-dxhca4b3e24d0bd8d7.js"></script>
-            <script type="module" async src="/./assets/ImageResizer-dxh1e56f17079988df4.js"></script>
+        <div id="main"></div>
+
+        <!-- 
+            ✅ SCRIPTS — Only unique files, loaded once.
+            "type="module"" and "async" are fine. 
+            Order doesn't matter much because they're modules.
+        -->
+        <script type="module" async src="/Image-Resizer/assets/Diowork-dxhb5da4b5b58c96.js"></script>
+        <script type="module" async src="/Image-Resizer/assets/Diowork-dxhdb426d9a98265e7d.js"></script>
+        <script type="module" async src="/Image-Resizer/assets/Diowork-dxhca4b3e24d0bd8d7.js"></script>
+    <script type="module" async src="/./assets/ImageResizer-dxh1e56f17079988df4.js"></script>
             </body>
 </html>
